@@ -27,16 +27,20 @@
 Awesome Fuzzing Resources
 -------------
 <a name="books" />
+
 ## 书籍
+
 *关于 fuzzing 的书籍*
 
 + [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) 作者： Michael Sutton, Adam Greene, Pedram Amini
 
-+ [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) 作者： Ari Takanen, Charles Miller, and Jared D Demott
++ [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) 作者： Ari Takanen, Charles Miller, Jared D Demott
 
-+ [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) 作者： Gadi Evron and Noam Rathaus
++ [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) 作者： Gadi Evron, Noam Rathaus
 
 + [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) 作者： Justin Seitz
+
++ [The Fuzzing Book](https://www.fuzzingbook.org/) 作者： Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler.
 
 
 > **Note:** 下列书籍中的部分章节也描述了 fuzzing
@@ -48,11 +52,13 @@ Awesome Fuzzing Resources
 > - [IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指导书](https://www.amazon.com/IDA-Pro-Book-2nd-ebook/dp/B005EI84TM)
 
 <a name="courses" />
+
 ## 课程
 
 *与 fuzzing 有关的课程/培训*
 
 <a name="free" />
+
 ### 免费
 
 [NYU Poly ( see videos for more )](https://vimeo.com/5236104 ) - Dan Guido 出品的免费指导
@@ -64,6 +70,7 @@ Awesome Fuzzing Resources
 [Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - W. Owen Redwood 和 Prof. Xiuwen Liu 出品
 
 <a name="paid" />
+
 ### 付费
 
 [Offensive Security, Cracking The Perimeter ( CTP ) and Advanced Windows Exploitation ( AWE )](https://www.offensive-security.com/information-security-training/)
@@ -73,10 +80,12 @@ Awesome Fuzzing Resources
 [Exodus Intelligence - 漏洞挖掘大师级课程](https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course/)
 
 <a name="videos" />
+
 ## 视频
 
 *讨论 fuzzing 技术、工具、最佳实践的视频*
 <a name="nyu-poly-videos" />
+
 ### NYU Poly Course videos (from Dan Guido)
 
 [Fuzzing 101 (Part 1)](https://vimeo.com/5236104) - Mike Zusman 出品
@@ -88,6 +97,7 @@ Awesome Fuzzing Resources
 [Fuzzing - Software Security Course on Coursera](https://www.coursera.org/lecture/software-security/fuzzing-VgyOn) - 马里兰大学出品
 
 <a name="conf-talks-tutorials" />
+
 ### 关于 Fuzzing 的会议讨论/教程
 
 [Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - 列表内有许多优质内容
@@ -100,6 +110,7 @@ Awesome Fuzzing Resources
 [DerbyCon 2016: Fuzzing 如何击溃软件](http://www.irongeek.com/i.php?page=videos/derbycon6/411-fuzzing-basicshow-to-break-software-grid-aka-scott-m)
 
 <a name="tutorials" />
+
 ## 教程与博客
 
 *解释 fuzzing 方法、技术与最佳实践的教程与博客*
@@ -131,17 +142,20 @@ Awesome Fuzzing Resources
 [在 Fuzzing 大型开源项目前要考虑的 7 件事](https://www.linuxfoundation.org/blog/2016/02/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - Emily Ratliff 
 
 ##### 从 Fuzzing 到 Exploit
+
 [从 fuzzing 到 0-day](https://blog.techorganic.com/2014/05/14/from-fuzzing-to-0-day/) - Harold Rodriguez(@superkojiman) 出品
 
 [从 crash 到 exploit](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - Corelan Team 出品
 
 ##### Peach Fuzzer 相关教程
+
 [Peach 上手指南](http://community.peachfuzzer.com/v2/PeachQuickstart.html)
 [使用 Peach 进行 Fuzzing Part 1](http://www.flinkd.org/2011/07/fuzzing-with-peach-part-1/) - Jason Kratzer of corelan team 出品
 [使用 Peach 进行 Fuzzing Part 2](http://www.flinkd.org/2011/11/fuzzing-with-peach-part-2-fixups-2/) - Jason Kratzer of corelan team 出品 
 [Peach pit 文件的自动生成](http://doc.netzob.org/en/latest/tutorials/peach.html) - Frédéric Guihéry, Georges Bossert 出品
 
 ##### AFL Fuzzer 相关教程
+
 [Fuzzing 工作流程，包含 fuzz 的始末](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/) - @BrandonPrry 出品
 
 [使用 AFL persistent 模式对 capstone 进行 Fuzzing](https://toastedcornflakes.github.io/articles/fuzzing_capstone_with_afl.html) - @toasted_flakes 出品
@@ -168,11 +182,17 @@ Awesome Fuzzing Resources
 
 [一系列真实漏洞的挑战：使用 AFL 完成模糊测试](https://github.com/ThalesIgnite/afl-training)
 
+[Fuzzing 101 - PHDays](https://github.com/RootUp/PHDays9)
+
 ##### libFuzzer 相关教程
 
 [libFuzzer 教程](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
 
 [如何使用 libFuzzer 对现代 C/C++ 项目进行模糊测试](https://github.com/Dor1s/libfuzzer-workshop)
+
+##### honggfuzz 相关教程
+
+[如何使用 honggfuzz 发现 VLC 中的 Double-Free RCE 漏洞](https://www.pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to/)
 
 ##### Spike Fuzzer 相关教程
 
@@ -181,13 +201,20 @@ Awesome Fuzzing Resources
 [使用 Spike 进行模糊测试](https://samsclass.info/127/proj/p18-spike.htm) - Samclass.info 出品
 
 ##### FOE Fuzzer 相关教程
+
 [Fuzzing with FOE](https://samsclass.info/127/proj/p16-fuzz.htm) - Samclass.info 出品
 
 
 ##### SMT/SAT 求解器教程
+
 [Z3 - A guide](https://rise4fun.com/z3/tutorial/guide) - Z3 快速上手指南
 
+##### 构建一个反馈驱动的 Fuzzer
+
+[如何构建一个反馈驱动的 Fuzzer](https://blog.fadyothman.com/tag/myfuzzer/) - by @fady_othman
+
 <a name="tools" />
+
 ## 工具
 
 *那些在 fuzzing 中能帮上忙的工具*
@@ -198,6 +225,8 @@ Awesome Fuzzing Resources
 *可以在云环境中进行模糊测试的模糊测试工具*
 
 [Cloudfuzzer](https://github.com/ouspg/cloudfuzzer) - 在云环境中自动、便易地进行云 Fuzzing 的框架
+
+[Fuzzit](https://fuzzit.dev) - Fuzzit 是一个 Fuzzing 即服务的平台，被 systemd, radare2 等多个开源\闭源项目使用，想加入请联系 oss@fuzzit.dev
 
 ### 文件格式 Fuzzer
 
@@ -214,6 +243,8 @@ Awesome Fuzzing Resources
 [Shellphish Fuzzer](https://github.com/shellphish/fuzzer) - 一个操纵 AFL 的 Python 接口，可以简单的写入测试用例与其他功能
 
 [TriforceAFL](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/june/project-triforce-run-afl-on-everything/) - 一个 AFL 的修正版，支持应用源码无法获得情况下的 fuzzing
+
+[AFLGo](https://github.com/aflgo/aflgo) - 基于 AFL 构建的导向性灰盒 Fuzzing，针对程序特定位置进行模糊测试
 
 [Peach Fuzzer](https://sourceforge.net/projects/peachfuzz/) - 帮助创建传统 dumb 以及小型 fuzzer 的框架
 
@@ -234,6 +265,7 @@ Awesome Fuzzing Resources
 [grammarinator](https://github.com/renatahodovan/grammarinator) - 基于 ANTLR v4 语法的文件格式模糊测试工具（ANTLR 项目已有大量的语法）
 
 <a name="network-protocol-fuzzers" />
+
 ### 网络协议 Fuzzer
 
 *那些帮助对像 HTTP, SSH, SMTP 等网络协议进行 fuzzing 的 Fuzzer*
@@ -258,10 +290,14 @@ Awesome Fuzzing Resources
 
 [Fuzzing For Worms](https://github.com/dobin/ffw) - 用于网络服务的 Fuzzing 框架
 
+[AFL (w/ networking patch)](https://github.com/jdbirdwell/afl) - 用于网络 Fuzzing 的非官方版 AFL
+
 ### 浏览器Fuzzer
+
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
 <a name="Misc" />
+
 ### 杂项，内核 Fuzzer，通用 Fuzzer
 
 [Choronzon](https://github.com/CENSUS/choronzon) - 基于遗传知识的 Fuzzer
@@ -287,6 +323,7 @@ Awesome Fuzzing Resources
 [go-fuzz](https://github.com/dvyukov/go-fuzz) - 覆盖度指导的 go 包模糊测试
 
 <a name="taint-analysis" />
+
 ### 流分析（用户输入如何影响执行）
 
 [PANDA ( Platform for Architecture-Neutral Dynamic Analysis )](https://github.com/moyix/panda)
@@ -298,7 +335,9 @@ Awesome Fuzzing Resources
 [moflow](https://github.com/vrtadmin/moflow) - 软件安全框架，包括漏洞的挖掘和修补
 
 <a name="smt-solvers" />
+
 ### 符号执行 + SAT/SMT 求解器
+
 [Z3](https://github.com/Z3Prover/z3)
 
 [SMT-LIB](http://smtlib.cs.uiowa.edu/) 
@@ -309,10 +348,12 @@ Awesome Fuzzing Resources
 https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 <a name="essential-tools" />
+
 ### 基本工具（通用）
 
 *漏洞利用工具开发者、逆向工程师常用的工具*
 <a name="debuggers" />
+
 #### 调试工具
 
 [Windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) - 漏洞利用者常用的调试器
@@ -334,6 +375,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 [Radare2](http://www.radare.org/r/) - 逆向工程与程序分析的框架
 
 <a name="dissembers" />
+
 #### 反汇编工具
 
 *反汇编工具、反汇编框架等*
@@ -345,6 +387,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 [Capstone](https://github.com/aquynh/capstone) - Capstone 是一个轻量、跨平台、多架构支持的反汇编框架
 
 <a name="others" />
+
 #### 其他
 
 [ltrace](http://ltrace.org/) - 库调用拦截
@@ -353,6 +396,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 
 <a name="vuln-apps"/>
+
 ## 存在漏洞的应用程序
 
 [Exploit-DB](https://www.exploit-db.com)
@@ -362,7 +406,10 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 [Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - 对有漏洞的 C 程序模糊测试的工具
 
+[vulnserver](https://github.com/stephenbradshaw/vulnserver) - 用来测试 Fuzzer 的存在漏洞的服务器
+
 ##### fuzzing 期间种子样本文件
+
 https://files.fuzzing-project.org/
 
 [PDF Test Corpus from Mozilla](https://github.com/mozilla/pdf.js/tree/master/test/pdfs)
@@ -371,12 +418,20 @@ https://files.fuzzing-project.org/
 
 [Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - 模糊测试引擎的测试集，包括许多知名的 Bug，如 Heartbleed、c-ares $100K bug 等
 
+[Fuzzing Corpus](https://github.com/strongcourage/fuzzing-corpus) - 包含多种文件格式、用于 Fuzzing 的语料库
+
 <a name="antifuzz"/>
-## 反Fuzzing
+
+## 反 Fuzzing
 
 [Anti-Fuzzing 的介绍：纵深防御的辅助](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
 
+[Fuzzification: 反 Fuzzing 技术](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
+
+[AntiFuzz: 阻止对二进制可执行文件的 Fuzzing](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
+
 <a name="contribution"/>
+
 ## 贡献
 
 [请查看 contributing.md 中关于细节的介绍](Contributing.md).
