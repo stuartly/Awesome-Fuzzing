@@ -74,6 +74,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Exodus Intelligence - Vulnerability development master class](https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course/)
 
+[Ada Logics - Applied Source Code Fuzzing](https://adalogics.com/training-source-fuzz)
 
 ## Videos
 
@@ -90,6 +91,11 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 [Fuzzing - Software Security Course on Coursera](https://www.coursera.org/lecture/software-security/fuzzing-VgyOn) - by University of Maryland.
 
 ### Conference talks and tutorials
+
+[Attacking Antivirus Software's Kernel Driver](https://github.com/bee13oy/AV_Kernel_Vulns/tree/master/Zer0Con2017)
+
+[Fuzzing the Windows Kernel - OffensiveCon 2020](https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf)
+
 [Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos. 
 
 [Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - by Atte Kettunen
@@ -98,10 +104,20 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [DerbyCon 2016: Fuzzing basics...or how to break software](http://www.irongeek.com/i.php?page=videos/derbycon6/411-fuzzing-basicshow-to-break-software-grid-aka-scott-m)
 
+[Fuzz Theory](https://www.youtube.com/watch?v=5rE8xEg5tXk&list=PLSkhUfcCXvqG6FRTCCxIfoMK6rw3NZvb6) - by Brandon Falk
+
 
 ## Tutorials and Blogs
 
 *Tutorials and blogs which explain methodology, techniques and best practices of fuzzing*
+
+[Fuzzing Closed Source PDF Viewers](https://www.gosecure.net/blog/2019/07/30/fuzzing-closed-source-pdf-viewers/)
+
+[Fuzzing Image Parsing in Windows, Part One: Color Profiles](https://www.fireeye.com/blog/threat-research/2020/09/fuzzing-image-parsing-in-windows-color-profiles.html)
+
+[Fuzzing Image Parsing in Windows, Part Two: Uninitialized Memory](https://www.fireeye.com/blog/threat-research/2021/03/fuzzing-image-parsing-in-windows-uninitialized-memory.html)
+
+[Fuzzing the Office Ecosystem](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
 
 [Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
@@ -142,12 +158,22 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing with Peach Part 1](http://www.flinkd.org/fuzzing-with-peach-part-1/) - by Jason Kratzer of corelan team
 
-
 [Fuzzing with Peach Part 2](http://www.flinkd.org/fuzzing-with-peach-part-2-fixups-2/) - by Jason Kratzer of corelan team.
 
 [Auto generation of Peach pit files/fuzzers](http://doc.netzob.org/en/latest/tutorials/peach.html) - by Frédéric Guihéry, Georges Bossert.
 
 ##### AFL Fuzzer related tutorials
+
+[Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://christopher-vella.com/2020/02/28/creating-a-fuzzing-harness-for-foxitreader-9-7-converttopdf-function/)
+
+[50 CVEs in 50 Days: Fuzzing Adobe Reader](https://research.checkpoint.com/2018/50-adobe-cves-in-50-days/)
+
+[Fuzzing sockets, part 1: FTP servers](https://securitylab.github.com/research/fuzzing-sockets-FTP)
+
+[Fuzzing software: common challenges and potential solutions (Part 1) ](https://securitylab.github.com/research/fuzzing-challenges-solutions-1)
+
+[Fuzzing software: advanced tricks (Part 2)](https://securitylab.github.com/research/fuzzing-software-2)
+
 [Fuzzing workflows; a fuzz job from start to finish](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/) - by @BrandonPrry.
 
 [Fuzzing capstone using AFL persistent mode](https://toastedcornflakes.github.io/articles/fuzzing_capstone_with_afl.html) - by @toasted_flakes
@@ -180,9 +206,13 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [libFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
 
+[Hunting for bugs in VirtualBox (First Take)](http://blog.paulch.ru/2020-07-26-hunting-for-bugs-in-virtualbox-first-take.html)
+
 [libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
 
 ##### honggfuzz related tutorials
+
+[Fuzzing ImageIO](https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html)
 
 [Double-Free RCE in VLC. A honggfuzz how-to](https://www.pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to/)
 
@@ -224,6 +254,14 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
 
+[Jackalope](https://github.com/googleprojectzero/Jackalope)
+
+[Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+
+[Newer version of Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+
+[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl)
+
 [MiniFuzz - Wayback Machine link](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Basic file format fuzzing tool by Microsoft. (No longer available on Microsoft website).
 
 [BFF from CERT](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974) - Basic Fuzzing Framework for file formats.
@@ -242,7 +280,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [MozPeach](https://github.com/MozillaSecurity/peach) - A fork of peach 2.7 by Mozilla Security.
 
-[Failure Observation Engine (FOE)](www.cert.org/vulnerability-analysis/tools/foe.cfm) - mutational file-based fuzz testing tool for windows applications.
+[Failure Observation Engine (FOE)](https://vuls.cert.org/confluence/display/tools/CERT+FOE+-+Failure+Observation+Engine) - mutational file-based fuzz testing tool for windows applications.
 
 [rmadair](http://rmadair.github.io/fuzzer/) - mutation based file fuzzer that uses PyDBG to monitor for signals of interest.
 
@@ -282,6 +320,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [AFL (w/ networking patch)](https://github.com/jdbirdwell/afl) - An unofficial american fuzzy lop capable of network fuzzing.
 
+[AFLNet](https://github.com/aflnet/aflnet) - A Greybox Fuzzer for Network Protocols (an extention of AFL).
+
+[Pulsar](https://github.com/hgascon/pulsar) - Protocol Learning, Simulation and Stateful Fuzzer.
+
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
@@ -312,6 +354,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [FExM](https://github.com/fgsect/fexm) - Automated Large-Scale Fuzzing Framework
 
+[Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - A coverage-guided, in-process fuzzer for the Java Virtual Machine based on libFuzzer.
+
 ### Taint Analysis
 *How user input affects the execution*
 
@@ -329,6 +373,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [SMT-LIB](http://smtlib.cs.uiowa.edu/) - An international initiative aimed at facilitating research and development in Satisfiability Modulo Theories (SMT)
 
+[Symbolic execution with KLEE: From installation and introduction to bug-finding in open source software](https://adalogics.com/blog/symbolic-execution-with-klee) - A set of four instructional videos introducing KLEE, starting with how to get started with KLEE and ending with a demo that finds memory corruption bugs in real code.
 
 ### References
 
